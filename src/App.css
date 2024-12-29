@@ -1,0 +1,33 @@
+.app {
+  position: relative;
+  margin-top: 6.5em;
+}
+
+.user__header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ACE1AF;
+  text-align: center;
+  z-index: 1;
+  .new__user__btn {
+    font-size: 1.1em;
+    margin: 1em 1.2em;
+    width: 8em;
+    padding: 0.5em;
+    border-radius: 0.7em;
+    color: #fff;
+    background-color: #999;
+    transition: scale 0.3s ease;
+    &:hover{
+      scale:1.1
+    }
+  }
+}
+
+.user-container {
+  height: 100vh;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
